@@ -52,7 +52,7 @@ namespace FieldOfDreams
                 }
                 else if (a.Length < 2 && word.Answer.Contains(a))
                 {
-                    Console.WriteLine("Откройте букву a !");
+                    Console.WriteLine($"Откройте букву {a}!");
                     var index = word.Answer.IndexOf(a);
                     while (index >= 0)
                     {
